@@ -10,7 +10,3 @@ def test_zero_grades():
 def test_single_grade():
     grades = [42]
     assert compute_hw_average(grades) == 42
-
-def test_multiple_grades():
-    grades = [20, 30]
-    assert compute_hw_average(grades) == 25
