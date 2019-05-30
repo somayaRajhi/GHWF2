@@ -13,4 +13,4 @@ def test_single_grade():
 
 def test_multiple_grades():
     grades = [20, 30]
-    assert compute_hw_average(grades) == sum(grades) / len(grades)
+    assert compute_hw_average(grades) == 25
